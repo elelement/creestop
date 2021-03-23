@@ -117,7 +117,7 @@ resource "google_cloud_scheduler_job" "start_job" {
 }
 ```
 
-Y otro para la parada:
+And another for "stop_job":
 
 ```python
 resource "google_cloud_scheduler_job" "stop_job" {
